@@ -1,8 +1,8 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2018) 
-    v2.20 (2017-12-17)
-    Author: Pawel Cislo (pyxelr)
+    v2.20.1 (2017-12-30)
+    Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
     License:    https://creativecommons.org/licenses/by-sa/4.0/ 
@@ -282,6 +282,12 @@ html-blob {
 
 /* Background color of "More" button in Google Apps menu */
 #gb a.gb_ja, #gb a.gb_ja:visited, #gb a.gb_ja:active, #gb a.gb_ka, #gb a.gb_ka:visited {
-    background-color: #7b7b7b;
+    background-color: #b5b5b5;
+}
+
+/* Invertion of avatar for another account */
+
+.gb_Wb.gb_yb  {
+    filter: invert(90%) hue-rotate(180deg)!important;
 }
 }
