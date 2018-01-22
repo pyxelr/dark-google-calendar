@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2018) 
-    v2.20.1 (2017-12-30)
+    v2.20.2 (2018-01-22)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -174,12 +174,6 @@
   {
     background-color: #eae5d1;
   }
-/* Uninvertion of avatar */
-
-  .gb_ab
-  {
-    filter: invert(90%) hue-rotate(180deg)!important;
-  }
 
 /* Increased weight of the font used in top left mini calendar */
 
@@ -289,5 +283,12 @@ html-blob {
 
 .gb_Wb.gb_yb  {
     filter: invert(90%) hue-rotate(180deg)!important;
+}
+
+/* Update to white color of the icons next to avatar */
+
+.gb_yc svg, .gb_kc svg {
+    color: white;
+    opacity: .54;
 }
 }
