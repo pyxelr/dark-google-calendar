@@ -268,4 +268,8 @@ html-blob {
 .gb_Eb {
     color: grey;
 }
+/* Invertion of 2nd account avatar in the pop-up menu under the avatar icon*/
+.gb_1b.gb_Cb {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
 }
