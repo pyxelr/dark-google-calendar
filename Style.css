@@ -1,102 +1,89 @@
-@-moz-document domain("calendar.google.com")
-{
+@-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.20.2 (2018-01-22)
+    v2.20.3 (2018-03-12)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
     License:    https://creativecommons.org/licenses/by-sa/4.0/ 
 */
-
 /* Invert the whole website */
-  html:not(img)
-  {
+
+html:not(img) {
     -webkit-filter: invert(90%) hue-rotate(180deg) !important;
     filter: invert(90%) hue-rotate(180deg)!important;
     background: rgb(25, 25, 25)!important;
-  }
-
-  #onegoogbar a[href^="https://accounts.google.com"]:not(img),
-#onegoogbar a[href="javascript:_SR_backToCalendar();"]:not(img)
-  {
+}
+#onegoogbar a[href^="https://accounts.google.com"]:not(img),
+#onegoogbar a[href="javascript:_SR_backToCalendar();"]:not(img) {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
-  }
+}
 /* BELOW ARE THE MODIFICATIONS OF OLD GOOGLE CALENDAR [BEFORE DECEMBER 2017]*/
 /* background color of reminders */
 
-  .st-c-pos
-  {
+.st-c-pos {
     filter: saturate(70%)!important;
     filter: brightness(100%)!important;
-  }
+}
 /* text color of reminders in month view */
 
-  .rb-ni
-  {
+.rb-ni {
     color: rgb(0, 0, 0)!important;
     text-shadow: 0px 0px #000000!important;
-  }
+}
 /* text color of reminders in week view*/
 
-  .cpchip
-  {
+.cpchip {
     color: rgb(0, 0, 0)!important;
     text-shadow: 0px 0px #000000!important;
-  }
+}
 /* text color of time in reminders in week view*/
 
-  .chip-caption
-  {
+.chip-caption {
     color: rgb(0, 0, 0)!important;
     text-shadow: 0px 0px #000000!important;
-  }
+}
 /* text color of date above the calendar */
 
-  .date-top
-  {
+.date-top {
     color: rgb(0, 0, 0)!important;
     text-shadow: 0px 0px #000000!important;
-  }
+}
 /* text color of date when left-clicked on a reminder */
 
-  .neb-date
-  {
+.neb-date {
     color: rgb(0, 0, 0)!important;
     text-shadow: 0px 0px #000000!important;
-  }
+}
 /* text color of left sidebar */
 
-  .calListLabel,
+.calListLabel,
 .calListLabel-sel,
 .calHeader,
-#dp_0_cur
-  {
+#dp_0_cur {
     color: rgb(0, 0, 0)!important;
     text-shadow: 0px 0px #000000!important;
-  }
+}
 /* text color of input text */
 
-  .gcal-textinput,
+.gcal-textinput,
 .gcal-contenteditable-textinput.textarea,
 .gbqfif,
-.gbqfsf
-  {
+.gbqfsf {
     color: rgb(0, 0, 0)!important;
     text-shadow: 0px 0px #000000!important;
-  }
+}
 /* text color when creating an event (small window) */
 
-  .tile-content,
+.tile-content,
 .tab-container,
-.tab-label
-  {
+.tab-label {
     color: rgb(0, 0, 0)!important;
     text-shadow: 0px 0px #000000!important;
-  }
+}
 /* text color when creating an event (big window) */
 
-  .text,
+.text,
 .dr-date,
 .dr-sep,
 .ep-edr-second-line,
@@ -107,105 +94,89 @@
 .ep-gs-ta,
 .ep-dp-dt,
 .ep-dp-calendar-sel,
-.textinput .ui-sch
-  {
+.textinput .ui-sch {
     color: rgb(0, 0, 0)!important;
     text-shadow: 0px 0px #000000!important;
-  }
+}
 /* text color of time menu (big window) */
 
-  .goog-control
-  {
+.goog-control {
     color: rgb(37, 37, 37)!important;
     list-style: none!important;
     margin: 0!important;
     padding: 0 3em 0 1em!important;
     text-shadow: 0px 0px #000000!important;
     white-space: nowrap!important;
-  }
+}
 /* reverse inversion of icons in the navigation bar */
 
-  .gb_zb,
+.gb_zb,
 .gbip,
-.gb_2
-  {
+.gb_2 {
     filter: invert(90%) hue-rotate(180deg)!important;
-  }
+}
 /* change of event colours */
 
-  .st-c,
+.st-c,
 .lv-event-title-line,
 .calListSquare,
-.goog-inline-block.ecp-rb-color
-  {
+.goog-inline-block.ecp-rb-color {
     filter: invert(90%) hue-rotate(180deg)!important;
-  }
+}
 /* BELOW ARE THE MODIFICATIONS OF UPDATED GOOGLE CALENDAR [AFTER DECEMBER 2017]*/
 /* remove shadow on + button */
 
-  .XHsn7e
-  {
+.XHsn7e {
     box-shadow: none !important;
     -webkit-box-shadow: none !important;
-  }
+}
 /* invertion of task panel on the right hand side */
 
-  .YqtBEc,
-.xuBVOe
-  {
+.YqtBEc,
+.xuBVOe {
     filter: invert(90%) hue-rotate(180deg)!important;
-  }
+}
 /* Dark blue top of right hand panel and black text */
 
-  .CflnFb
-  {
+.CflnFb {
     background-color: #7b96c1;
     color: black;
-  }
+}
 /* Reduced opacity of the background color while adding an event */
 
-  .k77Iif-nUpftc-psdQ5e.qs41qe
-  {
+.k77Iif-nUpftc-psdQ5e.qs41qe {
     opacity: 0.3;
-  }
+}
 /* Changed color of event deleted panel */
 
-  .lq96Td
-  {
+.lq96Td {
     background-color: #eae5d1;
-  }
-
+}
 /* Increased weight of the font used in top left mini calendar */
 
-  .W0m3G
-  {
+.W0m3G {
     font-weight: 500;
-  }
+}
 /* Increased font weight of the event titles on the main view */
 
-  .g3dbUc
-  {
+.g3dbUc {
     font-weight: 600;
-  }
+}
 /* Changed the font color for some kind of events */
 
-  .g3dbUc.qqMC3e
-  {
+.g3dbUc.qqMC3e {
     color: #000;
-  }
-
+}
 /* Changed the font color for some kind of events */
 
-  .g3dbUc.UflSff
-  {
+.g3dbUc.UflSff {
     color: #ffffff;
-  }
+}
 /* Changed the font color for some kind of events */
 
-  .g3dbUc.smECzc
-  {
+.g3dbUc.smECzc {
     color: #212121;
-  }
+}
 /* Fix that reinverts emojis in event names, change text color and adds shadow.
 Unfortunately, I cannot use it as it is changed by switching between views. */
 /*
@@ -218,77 +189,83 @@ html-blob {
     text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
              #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
 }*/
-  #rAECCd,
-.jPtXgd
-  {
+
+#rAECCd,
+.jPtXgd {
     filter: invert(90%) hue-rotate(180deg)!important;
     font-weight: 600 !important;
-  }
-
-  .WpDZC,
-.zHQkBf
-  {
+}
+.WpDZC,
+.zHQkBf {
     filter: invert(90%) hue-rotate(180deg)!important;
     color: #c1c1c1 !important;
-  }
-
+}
 /* Fix of the Google menu with apps*/
 
-  #gb a.gb_ja,
+#gb a.gb_ja,
 #gb a.gb_ja:visited,
 #gb a.gb_ja:active,
 #gb a.gb_ka,
-#gb a.gb_ka:visited
-  {
+#gb a.gb_ka:visited {
     color: rgba(255, 255, 255, 0.87);
     text-decoration: none;
     background-color: black;
-  }
-
-  .gb_3
-  {
+}
+.gb_3 {
     font-weight: 600;
-  }
+}
 /* Change of event text color in the pop-up window */
-  .i5a7ie
-  {
-    color: #000;
-  }
 
+.i5a7ie {
+    color: #000;
+}
 /* Uninvertion of "Google" logo" - Activate it by using "Advanced Style Settings" */
 /*[[uninvertgoogle]]*/
-/*.gb_Xa,
-.gb_Bc {
+/*.gb_1a,
+.gb_Ec {
     filter: invert(90%) hue-rotate(180deg)!important;
 }
 */
 
 /* Inversion of event action popup (saved, updated, deleted etc.)*/
-.Mh0NNb
-{
-      filter: invert(90%) hue-rotate(180deg)!important;
-}
 
-/* Inversion of notification panel */
-#I0_1513527137275{
-      filter: invert(90%) hue-rotate(180deg)!important;
-}
-
-/* Background color of "More" button in Google Apps menu */
-#gb a.gb_ja, #gb a.gb_ja:visited, #gb a.gb_ja:active, #gb a.gb_ka, #gb a.gb_ka:visited {
-    background-color: #b5b5b5;
-}
-
-/* Invertion of avatar for another account */
-
-.gb_Wb.gb_yb  {
+.Mh0NNb {
     filter: invert(90%) hue-rotate(180deg)!important;
 }
+/* Inversion of notification panel */
 
+#I0_1513527137275 {
+    filter: invert(90%) hue-rotate(180deg)!important;
+}
+/* Background color of "More" button in Google Apps menu */
+
+#gb a.gb_ja,
+#gb a.gb_ja:visited,
+#gb a.gb_ja:active,
+#gb a.gb_ka,
+#gb a.gb_ka:visited {
+    background-color: #b5b5b5;
+}
 /* Update to white color of the icons next to avatar */
 
-.gb_yc svg, .gb_kc svg {
+.gb_yc svg,
+.gb_kc svg {
     color: white;
     opacity: .54;
+}
+/* Invertion of main avatar in the top right corner */
+
+.gb_b.gb_ib.gb_R {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+/* Fix of avatar in the pop-up menu under the avatar icon */
+
+.gb_Ab.gb_Xf.gb_Cb {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+/* Change of text color in the pop-up menu under the avatar icon */
+
+.gb_Eb {
+    color: grey;
 }
 }
