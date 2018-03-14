@@ -253,11 +253,6 @@ html-blob {
     color: white;
     opacity: .54;
 }
-/* Invertion of main avatar in the top right corner */
-
-.gb_b.gb_ib.gb_R {
-    filter: invert(100%) hue-rotate(180deg)!important;
-}
 /* Fix of avatar in the pop-up menu under the avatar icon */
 
 .gb_Ab.gb_Xf.gb_Cb {
@@ -269,12 +264,20 @@ html-blob {
     color: grey;
 }
 /* Invertion of 2nd account avatar in the pop-up menu under the avatar icon*/
+
 .gb_1b.gb_Cb {
     filter: invert(100%) hue-rotate(180deg)!important;
 }
 /* Change of arrow color in the settings menu*/
+
 .gb_yc svg, .gb_kc svg {
     color: black;
     opacity: .54;
+}
+/* Color of icons in the top bar (next to avatar) */
+
+.gb_b svg
+{
+ color: white;   
 }
 }
