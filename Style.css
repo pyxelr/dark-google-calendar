@@ -1,6 +1,6 @@
 @-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.20.4 (2018-03-13)
+    v2.20.4 (2018-03-14)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -265,7 +265,7 @@ html-blob {
 }
 /* Invertion of 2nd account avatar in the pop-up menu under the avatar icon*/
 
-.gb_1b.gb_Cb {
+.gb_2b.gb_Db {
     filter: invert(100%) hue-rotate(180deg)!important;
 }
 /* Change of arrow color in the settings menu*/
