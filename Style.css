@@ -1,6 +1,6 @@
 @-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.20.5 (2018-05-16)
+    v2.50 (2018-05-16)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -18,117 +18,17 @@ html:not(img) {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
 }
-/* BELOW ARE THE MODIFICATIONS OF OLD GOOGLE CALENDAR [BEFORE DECEMBER 2017]*/
-/* background color of reminders */
-
-.st-c-pos {
-    filter: saturate(70%)!important;
-    filter: brightness(100%)!important;
-}
-/* text color of reminders in month view */
-
-.rb-ni {
-    color: rgb(0, 0, 0)!important;
-    text-shadow: 0px 0px #000000!important;
-}
-/* text color of reminders in week view*/
-
-.cpchip {
-    color: rgb(0, 0, 0)!important;
-    text-shadow: 0px 0px #000000!important;
-}
-/* text color of time in reminders in week view*/
-
-.chip-caption {
-    color: rgb(0, 0, 0)!important;
-    text-shadow: 0px 0px #000000!important;
-}
-/* text color of date above the calendar */
-
-.date-top {
-    color: rgb(0, 0, 0)!important;
-    text-shadow: 0px 0px #000000!important;
-}
-/* text color of date when left-clicked on a reminder */
-
-.neb-date {
-    color: rgb(0, 0, 0)!important;
-    text-shadow: 0px 0px #000000!important;
-}
-/* text color of left sidebar */
-
-.calListLabel,
-.calListLabel-sel,
-.calHeader,
-#dp_0_cur {
-    color: rgb(0, 0, 0)!important;
-    text-shadow: 0px 0px #000000!important;
-}
-/* text color of input text */
-
-.gcal-textinput,
-.gcal-contenteditable-textinput.textarea,
-.gbqfif,
-.gbqfsf {
-    color: rgb(0, 0, 0)!important;
-    text-shadow: 0px 0px #000000!important;
-}
-/* text color when creating an event (small window) */
-
-.tile-content,
-.tab-container,
-.tab-label {
-    color: rgb(0, 0, 0)!important;
-    text-shadow: 0px 0px #000000!important;
-}
-/* text color when creating an event (big window) */
-
-.text,
-.dr-date,
-.dr-sep,
-.ep-edr-second-line,
-.ep-recl,
-.ep-ts,
-.ep-gp,
-.ep-gs,
-.ep-gs-ta,
-.ep-dp-dt,
-.ep-dp-calendar-sel,
-.textinput .ui-sch {
-    color: rgb(0, 0, 0)!important;
-    text-shadow: 0px 0px #000000!important;
-}
-/* text color of time menu (big window) */
-
-.goog-control {
-    color: rgb(37, 37, 37)!important;
-    list-style: none!important;
-    margin: 0!important;
-    padding: 0 3em 0 1em!important;
-    text-shadow: 0px 0px #000000!important;
-    white-space: nowrap!important;
-}
-/* reverse inversion of icons in the navigation bar */
-
-.gb_zb,
-.gbip,
-.gb_2 {
-    filter: invert(90%) hue-rotate(180deg)!important;
-}
-/* change of event colours */
-
-.st-c,
-.lv-event-title-line,
-.calListSquare,
-.goog-inline-block.ecp-rb-color {
-    filter: invert(90%) hue-rotate(180deg)!important;
-}
 /* BELOW ARE THE MODIFICATIONS OF UPDATED GOOGLE CALENDAR [AFTER DECEMBER 2017]*/
-/* remove shadow on + button */
+
+
+
+
+
+/* ==== GENERAL ==== */
+/* "+ button" in the month view */
 
 .XHsn7e {
-    box-shadow: none !important;
-    -webkit-box-shadow: none !important;
+    filter: invert(90%) hue-rotate(180deg)!important;
 }
 /* invertion of task panel on the right hand side */
 
@@ -152,53 +52,10 @@ html:not(img) {
 .lq96Td {
     background-color: #eae5d1;
 }
-/* Increased weight of the font used in top left mini calendar */
+/* color of calendar in the pop up menu of month view */
 
-.W0m3G {
-    font-weight: 500;
-}
-/* Increased font weight of the event titles on the main view */
-
-.g3dbUc {
-    font-weight: 600;
-}
-/* Changed the font color for some kind of events */
-
-.g3dbUc.qqMC3e {
-    color: #000;
-}
-/* Changed the font color for some kind of events */
-
-.g3dbUc.UflSff {
-    color: #ffffff;
-}
-/* Changed the font color for some kind of events */
-
-.g3dbUc.smECzc {
-    color: #212121;
-}
-/* Fix that reinverts emojis in event names, change text color and adds shadow.
-Unfortunately, I cannot use it as it is changed by switching between views. */
-/*
-html-blob {
-    filter: invert(90%) hue-rotate(180deg)!important;
-    background: rgb(25, 25, 25)!important;
-    background: rgba(0, 0, 0, 0)!important;
-    color:  #fff !important;
-        font-weight: 600 !important;
-    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
-             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
-}*/
-
-#rAECCd,
-.jPtXgd {
-    filter: invert(90%) hue-rotate(180deg)!important;
-    font-weight: 600 !important;
-}
-.WpDZC,
-.zHQkBf {
-    filter: invert(90%) hue-rotate(180deg)!important;
-    color: #c1c1c1 !important;
+.sIyjR {
+    filter: invert(100%) hue-rotate(180deg)!important;
 }
 /* Fix of the Google menu with apps*/
 
@@ -214,25 +71,12 @@ html-blob {
 .gb_3 {
     font-weight: 600;
 }
-/* Change of event text color in the pop-up window */
-
-.i5a7ie {
-    color: #000;
-}
-/* Uninvertion of "Google" logo" - Activate it by using "Advanced Style Settings" (16/05/2018 - I guess it is not needed anymore after last changes)*/
-/*[[uninvertgoogle]]*/
-/*.gb_1a,
-.gb_Ec {
-    filter: invert(90%) hue-rotate(180deg)!important;
-}
-*/
-
-/* Inversion of event action popup (saved, updated, deleted etc.)*/
+/* Invertion of event action pop up (saved, updated, deleted etc.)*/
 
 .Mh0NNb {
     filter: invert(90%) hue-rotate(180deg)!important;
 }
-/* Inversion of notification panel */
+/* Invertion of notification panel */
 
 #I0_1513527137275 {
     filter: invert(90%) hue-rotate(180deg)!important;
@@ -258,11 +102,6 @@ html-blob {
 .gb_Ab.gb_Xf.gb_Cb {
     filter: invert(100%) hue-rotate(180deg)!important;
 }
-/* Change of text color in the pop-up menu under the avatar icon */
-
-.gb_Eb {
-    color: grey;
-}
 /* Invertion of 2nd account avatar in the pop-up menu under the avatar icon*/
 
 .gb_2b.gb_Db {
@@ -270,14 +109,131 @@ html-blob {
 }
 /* Change of arrow color in the settings menu*/
 
-.gb_yc svg, .gb_kc svg {
+.gb_yc svg,
+.gb_kc svg {
     color: black;
     opacity: .54;
 }
+/* Invertion of main avatar icon */
 
-/* Inversion of main avatar icon */
-.gb_b.gb_ib.gb_R
-{
+.gb_b.gb_ib.gb_R {
     filter: invert(100%) hue-rotate(180deg)!important;
 }
+.g3dbUc,
+.jKgTF,
+.QGRmIf,
+.lcPUt {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+/* Invertion of event colors in the pop up view coming after right clicking the event in the month view */
+
+.a63c9c.ztKZ3d {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+/* Icons color in the pop up view coming after left clicking the event in the month view */
+
+.Wbs5sd,
+.rF3YF.wmyjXb {
+    color: #000;
+}
+/* Invertion of event colors in the main event view */
+
+.a63c9c {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+/* Invertion of calendar icon in the top left corner of month view */
+
+.gb_1a.gb_Ce {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+
+
+
+
+
+/* ==== FONT ==== */
+/* Increased weight of the font used in top left mini calendar */
+
+.W0m3G {
+    font-weight: 500;
+}
+/* Increased font weight of the event titles on the main view */
+
+.g3dbUc {
+    font-weight: 900;
+    color: #000000;
+}
+/* Changed the font color for the past events */
+
+.g3dbUc.UflSff {
+    color: #404040;
+}
+/* Changed the font color for some kind of events (in the month view) */
+
+.g3dbUc.smECzc {
+    color: #666666;
+}
+/* Font color fix for past events (in the week view) */
+
+.FAxxKc {
+    font-weight: 600;
+    color: #000000;
+}
+/* Font color fix for time and places of events (in the week view) */
+
+.A6wOnd,
+.VgueE,
+.Jmftzc.gVNoLb.EiZ8Dd,
+.Jmftzc.K9QN7e.EiZ8Dd.UflSff,
+.Jmftzc.K9QN7e.EiZ8Dd {
+    color: #000000;
+}
+/* Check mark color in the left side bar */
+
+.rq8Mwb {
+    filter: invert(100%);
+}
+/* Change of event text color in the pop-up window */
+
+.i5a7ie {
+    color: #000;
+}
+/* Change of text color in the pop-up menu under the avatar icon */
+
+.gb_Eb {
+    color: grey;
+}
+/* Invertion of text in the pop up view coming after left clicking the event in the month view */
+
+.Tnsqdc,
+.kw5sif {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+/* Font color in the pop up view coming after left clicking the event in the month view */
+
+#rAECCd,
+.jPtXgd {
+    font-weight: 600 !important;
+}
+.WpDZC,
+.zHQkBf {
+    color: #c1c1c1 !important;
+}
+/* Color of "pen icon" in the pop up view coming after left clicking the event in the month view */
+
+.Ip8zfc{
+    filter: invert(100%)!important;
+}
+
+
+
+
+/* ==== EXTRA ==== */
+/* Uninvertion of "Google" logo" - Activate it by using "Advanced Style Settings" (16/05/2018 - I guess it is not needed anymore after last changes)*/
+/*[[uninvertgoogle]]*/
+/*.gb_1a,
+.gb_Ec {
+    filter: invert(90%) hue-rotate(180deg)!important;
+}
+*/
 }
