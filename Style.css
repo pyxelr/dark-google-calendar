@@ -1,6 +1,6 @@
 @-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.20.4 (2018-03-14)
+    v2.20.5 (2018-05-16)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -219,7 +219,7 @@ html-blob {
 .i5a7ie {
     color: #000;
 }
-/* Uninvertion of "Google" logo" - Activate it by using "Advanced Style Settings" */
+/* Uninvertion of "Google" logo" - Activate it by using "Advanced Style Settings" (16/05/2018 - I guess it is not needed anymore after last changes)*/
 /*[[uninvertgoogle]]*/
 /*.gb_1a,
 .gb_Ec {
@@ -274,10 +274,10 @@ html-blob {
     color: black;
     opacity: .54;
 }
-/* Color of icons in the top bar (next to avatar) */
 
-.gb_b svg
+/* Inversion of main avatar icon */
+.gb_b.gb_ib.gb_R
 {
- color: white;   
+    filter: invert(100%) hue-rotate(180deg)!important;
 }
 }
