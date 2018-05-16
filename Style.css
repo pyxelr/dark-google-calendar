@@ -125,8 +125,7 @@ html:not(img) {
 }
 /* Uninvert menu of uploading attachment from Google Drive */
 
-#vqd3vxfo4jpl,
-#pnsketfj08m {
+#vqd3vxfo4jpl,#pnsketfj08m {
     filter: invert(100%) hue-rotate(180deg)!important;
 }
 /* Change of arrow color in the settings menu*/
@@ -171,9 +170,14 @@ html:not(img) {
     filter: invert(100%) hue-rotate(180deg)!important;
     text-shadow: 0.2px 0.2px #000!important;
 }
-/*Color of events in the "Schedule" view */
+/* Color of events in the "Schedule" view */
 
 .Oxm52e {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+/* Event color in the view of adding a task */
+
+.azQ4Lc {
     filter: invert(100%) hue-rotate(180deg)!important;
 }
 
