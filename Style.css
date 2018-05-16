@@ -18,6 +18,7 @@ html:not(img) {
     -webkit-filter: invert(100%) hue-rotate(180deg)!important;
     filter: invert(100%) hue-rotate(180deg)!important;
 }
+
 /* BELOW ARE THE MODIFICATIONS OF UPDATED GOOGLE CALENDAR [AFTER DECEMBER 2017]*/
 
 
@@ -81,6 +82,11 @@ html:not(img) {
 #I0_1513527137275 {
     filter: invert(90%) hue-rotate(180deg)!important;
 }
+/* Invertion of apps icons */
+
+.gb_2 {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
 /* Background color of "More" button in Google Apps menu */
 
 #gb a.gb_ja,
@@ -102,9 +108,25 @@ html:not(img) {
 .gb_Ab.gb_Xf.gb_Cb {
     filter: invert(100%) hue-rotate(180deg)!important;
 }
+/* Invertion of main avatar icon */
+
+.gb_b.gb_ib.gb_R {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
 /* Invertion of 2nd account avatar in the pop-up menu under the avatar icon*/
 
-.gb_2b.gb_Db {
+.gb_Eb.gbip {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+/* Incwerion of "guests" avatars */
+
+.jPtXgd {
+    filter: invert(100%) hue-rotate(180deg)!important;
+}
+/* Uninvert menu of uploading attachment from Google Drive */
+
+#vqd3vxfo4jpl,
+#pnsketfj08m {
     filter: invert(100%) hue-rotate(180deg)!important;
 }
 /* Change of arrow color in the settings menu*/
@@ -114,15 +136,9 @@ html:not(img) {
     color: black!important;
     opacity: .54!important;
 }
-/* Invertion of main avatar icon */
-
-.gb_b.gb_ib.gb_R {
-    filter: invert(100%) hue-rotate(180deg)!important;
-}
-
 /* Fix of event colors and text */
-.g3dbUc
-.jKgTF,
+
+.g3dbUc .jKgTF,
 .QGRmIf,
 .lcPUt {
     filter: invert(100%) hue-rotate(180deg)!important;
@@ -149,14 +165,12 @@ html:not(img) {
 .gb_1a.gb_Ce {
     filter: invert(100%) hue-rotate(180deg)!important;
 }
-
 /* Event color in "4 days" view" */
 
 .NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd.jKgTF {
     filter: invert(100%) hue-rotate(180deg)!important;
-        text-shadow: 0.2px 0.2px #000!important;
+    text-shadow: 0.2px 0.2px #000!important;
 }
-
 /*Color of events in the "Schedule" view */
 
 .Oxm52e {
@@ -178,7 +192,6 @@ html:not(img) {
 .g3dbUc {
     font-weight: 900!important;
     color: #000000!important;
-    
 }
 /* Changed the font color for the past events */
 
@@ -238,9 +251,10 @@ html:not(img) {
 }
 /* Color of "pen icon" in the pop up view coming after left clicking the event in the month view */
 
-.Ip8zfc{
+.Ip8zfc {
     filter: invert(100%)!important;
 }
+
 
 
 
