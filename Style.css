@@ -1,6 +1,6 @@
 @-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.60 (2018-05-17)
+    v2.60.1 (2018-05-18)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -94,8 +94,10 @@ html:not(img) {
 .Mh0NNb {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
+/* Color of event action pop up (saved, updated, deleted etc.)*/
+
 .M6tHv {
-    background-color: #003c36!important;
+    background-color: #444444!important;
 }
 /* Invertion of notification panel */
 
@@ -114,10 +116,19 @@ html:not(img) {
 #gb a.gb_ja:active,
 #gb a.gb_ka,
 #gb a.gb_ka:visited {
-    background-color: #7fcac3!important;
+    background-color: #797979!important;
 }
 .ck4bY {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
+}
+/* More readable "More" text */
+
+#gb a.gb_ja,
+#gb a.gb_ja:visited,
+#gb a.gb_ja:active,
+#gb a.gb_ka,
+#gb a.gb_ka:visited {
+    text-shadow: 0.0px 0.0px #ededed!important;
 }
 /* Update to white color of the icons next to avatar */
 
@@ -125,6 +136,14 @@ html:not(img) {
 .gb_kc svg {
     color: white;
     opacity: .54;
+}
+/* Invertion of icons in the search bar */
+
+.asor.asor_i0,
+.gsoi.gsoi_w,
+.gsoi.gsoi_c.asor_v,
+.gsoi.gsoi_9.asor_v {
+    filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
 /* Invertion of main avatar icon */
 
@@ -170,6 +189,16 @@ html:not(img) {
 .rF3YF.wmyjXb {
     color: #000!important;
 }
+/* Border color for events that overlap each other in the week view */
+
+.EfQccc.F262Ye.EiZ8Dd::after {
+    border-color: #000000;
+}
+/* Border color for selected events that overlap each other in the week view */
+
+.EfQccc.MmaWIb.KKjvXb.EiZ8Dd::after {
+    border: 1px solid #000;
+}
 /* Fix of current event colors and text in month view */
 
 .g3dbUc .jKgTF,
@@ -181,7 +210,12 @@ html:not(img) {
 /* Past events in the month view */
 
 .g3dbUc.UflSff {
-    filter: invert(100%) hue-rotate(180deg) saturate(140%) contrast(105%) opacity(60%)!important;
+    filter: invert(100%) hue-rotate(180deg) saturate(140%) contrast(105%) opacity(40%)!important;
+}
+/* Past events in the week view */
+
+.NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd.UflSff.jKgTF {
+    filter: invert(100%) hue-rotate(180deg) saturate(140%) contrast(105%) opacity(40%)!important;
 }
 /* Invertion of event colors in the pop up view coming after right clicking the event in the month view */
 
