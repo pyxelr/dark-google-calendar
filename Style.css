@@ -1,6 +1,6 @@
 @-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.60.1 (2018-05-18)
+    v2.60.2 (2018-05-18)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -51,11 +51,6 @@ html:not(img) {
 .h5t3Nc .qNixLe {
     border-color: white;
     background-color: #c9c9c9;
-}
-/* "Actions" word in the right hand task panel */
-
-.etD5Le.VIpgJd-TzA9Ye-eEGnhe {
-    text-shadow: 0.0px 0.0px #404040!important;
 }
 /* Changed color of event deleted panel */
 
@@ -116,7 +111,7 @@ html:not(img) {
 #gb a.gb_ja:active,
 #gb a.gb_ka,
 #gb a.gb_ka:visited {
-    background-color: #797979!important;
+    background-color: #bbbbbb!important;
 }
 .ck4bY {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
@@ -128,7 +123,7 @@ html:not(img) {
 #gb a.gb_ja:active,
 #gb a.gb_ka,
 #gb a.gb_ka:visited {
-    text-shadow: 0.0px 0.0px #ededed!important;
+    font-weight: bolder!important;
 }
 /* Update to white color of the icons next to avatar */
 
@@ -142,7 +137,8 @@ html:not(img) {
 .asor.asor_i0,
 .gsoi.gsoi_w,
 .gsoi.gsoi_c.asor_v,
-.gsoi.gsoi_9.asor_v {
+.gsoi.gsoi_9.asor_v,
+.gsoi.gsoi_7.asor_v {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
 /* Invertion of main avatar icon */
@@ -194,6 +190,9 @@ html:not(img) {
 .EfQccc.F262Ye.EiZ8Dd::after {
     border-color: #000000;
 }
+.EfQccc.Hrn1mc.EiZ8Dd::after {
+    border: 1px solid #000;
+}
 /* Border color for selected events that overlap each other in the week view */
 
 .EfQccc.MmaWIb.KKjvXb.EiZ8Dd::after {
@@ -205,7 +204,7 @@ html:not(img) {
 .QGRmIf,
 .lcPUt {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
-    text-shadow: 0.0px 0.0px #404040!important;
+    font-weight: bold!important;
 }
 /* Past events in the month view */
 
@@ -215,7 +214,7 @@ html:not(img) {
 /* Past events in the week view */
 
 .NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd.UflSff.jKgTF {
-    filter: invert(100%) hue-rotate(180deg) saturate(140%) contrast(105%) opacity(40%)!important;
+    filter: invert(100%) hue-rotate(180deg) saturate(140%) contrast(50%) brightness(140%) opacity(90%)!important;
 }
 /* Invertion of event colors in the pop up view coming after right clicking the event in the month view */
 
@@ -231,7 +230,7 @@ html:not(img) {
 
 .NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd.jKgTF {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
-    text-shadow: 0.2px 0.2px #000!important;
+    font-weight: bold!important;
 }
 /* Color of events in the "Schedule" view */
 
