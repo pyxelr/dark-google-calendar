@@ -9,7 +9,7 @@
 /* Invert the whole website */
 
 html:not(img) {
-    -webkit-filter: invert(90%) hue-rotate(180deg) !important;
+    -webkit-filter: invert(90%) hue-rotate(180deg)!important;
     filter: invert(90%) hue-rotate(180deg)!important;
     background: rgb(25, 25, 25)!important;
 }
@@ -324,11 +324,11 @@ html:not(img) {
 
 #rAECCd,
 .jPtXgd {
-    font-weight: 600 !important;
+    font-weight: 600!important;
 }
 .WpDZC,
 .zHQkBf {
-    color: #c1c1c1 !important;
+    color: #c1c1c1!important;
 }
 /* Input text of event creation pop up menu */
 
