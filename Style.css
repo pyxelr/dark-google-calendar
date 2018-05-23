@@ -1,5 +1,6 @@
+@-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.60.3 (2018-05-23)
+    v2.60.4 (2018-05-23)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -12,7 +13,6 @@ html {
     filter: invert(90%) hue-rotate(180deg)!important;
     background: rgb(25, 25, 25)!important;
 }
-
 /* BELOW ARE THE MODIFICATIONS OF UPDATED GOOGLE CALENDAR [AFTER DECEMBER 2017]*/
 
 
@@ -189,12 +189,28 @@ html {
 .EfQccc.MmaWIb.KKjvXb.EiZ8Dd::after {
     border: 1px solid #000;
 }
-
 /* Inside colour of unticked calendar check boxes in the month view */
+
 .uHMk6b.fsHoPb {
     border: 7px solid black!important
 }
+/* "Choose custom color" menu */
 
+.g3VIld.GFhhge.Up8vH.hFEqNb.J9Nfi.iWO5td {
+    filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
+    background: rgb(25, 25, 25)!important;
+    color: white!important;
+}
+/* "Hex" word in "Choose custom color" menu */
+
+.XBkKC.WSvIUd {
+    color: white;
+}
+/* "Cancel" button in "Choose custom color" menu */
+
+.IP9Hyd .O0WRkf:first-child {
+    color: #ffffff;
+}
 /* Fix of current event colors and text in month view */
 
 .g3dbUc .jKgTF,
@@ -202,6 +218,7 @@ html {
 .lcPUt {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     font-weight: bold!important;
+    mix-blend-mode: darken;
 }
 /* Past events in the month view */
 
