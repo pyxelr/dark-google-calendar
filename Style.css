@@ -1,6 +1,5 @@
-@-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.60.2 (2018-05-18)
+    v2.60.3 (2018-05-23)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -8,21 +7,13 @@
 */
 /* Invert the whole website */
 
-html:not(img) {
+html {
     -webkit-filter: invert(90%) hue-rotate(180deg)!important;
     filter: invert(90%) hue-rotate(180deg)!important;
     background: rgb(25, 25, 25)!important;
 }
-#onegoogbar a[href^="https://accounts.google.com"]:not(img),
-#onegoogbar a[href="javascript:_SR_backToCalendar();"]:not(img) {
-    -webkit-filter: invert(100%) hue-rotate(180deg)!important;
-    filter: invert(100%) hue-rotate(180deg)!important;
-}
 
 /* BELOW ARE THE MODIFICATIONS OF UPDATED GOOGLE CALENDAR [AFTER DECEMBER 2017]*/
-
-
-
 
 
 /* ==== GENERAL ==== */
@@ -198,6 +189,12 @@ html:not(img) {
 .EfQccc.MmaWIb.KKjvXb.EiZ8Dd::after {
     border: 1px solid #000;
 }
+
+/* Inside colour of unticked calendar check boxes in the month view */
+.uHMk6b.fsHoPb {
+    border: 7px solid black!important
+}
+
 /* Fix of current event colors and text in month view */
 
 .g3dbUc .jKgTF,
