@@ -1,6 +1,6 @@
 @-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.60.4 (2018-05-23)
+    v2.60.5 (2018-05-24)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -210,6 +210,29 @@ html {
 
 .IP9Hyd .O0WRkf:first-child {
     color: #ffffff;
+}
+/* Google Calendar logo in the "Calendar of interest" view */
+
+.logo-plus-button-lockup {
+    filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
+}
+.logo-plus-button-lockup-text {
+    color: white;
+}
+/* "Moon phases" invertion */
+
+.st-wc {
+    filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
+}
+/* Time of the events we were invited to (in the week view) */
+
+.Jmftzc.gVNoLb.LKeQwe {
+    color: rgb(0, 0, 0);
+}
+/* Comma color in the events we were invited to (in the week view) */
+
+.Jmftzc.EiZ8Dd {
+    color: #000;
 }
 /* Fix of current event colors and text in month view */
 
