@@ -213,12 +213,16 @@ html {
 }
 /* Google Calendar logo in the "Calendar of interest" view */
 
-.logo-plus-button-lockup {
+.gb_9b.gb_xe {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
+
+/* "Calendar" text next to the top-left logo */
+
 .logo-plus-button-lockup-text {
     color: white;
 }
+
 /* Fix of Google Calendar logo in the month view*/
 
 .gb_Va.gb_ye {
