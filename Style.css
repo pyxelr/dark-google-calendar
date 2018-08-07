@@ -1,6 +1,5 @@
-@-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.60.5.1 (2018-07-10)
+    v2.60.5.3 (2018-08-07)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -134,17 +133,18 @@ html {
 }
 /* Invertion of main avatar icon */
 
-.gb_8a.gbii {
+.gb_9a.gbii {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
 }
+
 /* Invertion of 2nd account avatar in the pop-up menu under the avatar icon*/
 
-.gb_Xb.gb_zb {
+.gb_Bb.gbip {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
 }
 /* Fix of avatar in the pop-up menu under the avatar icon */
 
-.gb_Ab.gbip {
+.gb_Zb.gb_Ab {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
 }
 /* Invertion of "guests" avatars */
@@ -225,8 +225,12 @@ html {
 
 /* Fix of Google Calendar logo in the month view*/
 
-.gb_Va.gb_ye {
+.gb_Wa.gb_Ce {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
+}
+
+.gb_je.gb_ee {
+    color: #fff
 }
 /* "Moon phases" invertion */
 
@@ -309,6 +313,10 @@ html {
 .sIyjR {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
+/* Invertion of attachment frame */
+.fFW7wc-OEVmcd {
+    filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
+}
 
 
 
@@ -385,6 +393,7 @@ html {
 .gb_Eb {
     color: black!important;
 }
+
 
 
 
