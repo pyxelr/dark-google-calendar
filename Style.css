@@ -155,7 +155,7 @@ html {
 }
 /* Invertion of calendar icon in the top left corner of month view */
 
-.gb_1a.gb_Ce {
+.gb_Wa.gb_Ee {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
 }
 /* Icons color in the pop up view coming after left clicking the event in the month view */
