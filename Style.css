@@ -1,6 +1,6 @@
 @-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.60.5.4 (2018-09-03)
+    v2.60.6 (2018-09-22)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -211,12 +211,6 @@ html {
     color: white;
 }
 
-/* Fix of Google Calendar logo in the month view*/
-
-.gb_Wa.gb_De {
-    filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
-}
-
 .gb_je.gb_ee {
     color: #fff
 }
@@ -316,36 +310,36 @@ html {
 .W0m3G {
     font-weight: 500!important;
 }
-/* Increased font weight of the event titles on the main view */
+/* Increased font weight of the event titles (month view) */
 
 .g3dbUc {
     font-weight: 900!important;
-    color: #000000!important;
+    color: /*[[color1]]*/!important;
 }
-/* Changed the font color for the past events */
+/* Changed the font color of the past events (month view) */
 
 .g3dbUc.UflSff {
-    color: #404040!important;
+    color: /*[[color2]]*/!important;
 }
-/* Changed the font color for some kind of events (in the month view) */
+/* Changed the font color for some kind of events (month view) */
 
 .g3dbUc.smECzc {
-    color: #666666!important;
+    color: /*[[color3]]*/!important;
 }
-/* Font color fix for past events (in the week view) */
+/* Font color of past events (week view) */
 
 .FAxxKc {
     font-weight: 600!important;
-    color: #000000!important;
+    color: /*[[color4]]*/!important;
 }
-/* Font color fix for time and places of events (in the week view) */
+/* Font color of time and places of events (week view) */
 
 .A6wOnd,
 .VgueE,
 .Jmftzc.gVNoLb.EiZ8Dd,
 .Jmftzc.K9QN7e.EiZ8Dd.UflSff,
 .Jmftzc.K9QN7e.EiZ8Dd {
-    color: #000000!important;
+    color: /*[[color5]]*/!important;
 }
 /* Check mark color in the left side bar */
 
@@ -391,17 +385,4 @@ html {
 .gb_X {
     font-weight: bolder!important;
 }
-
-
-
-
-
-/* ==== EXTRA ==== */
-/* Uninvertion of "Google" logo" - Activate it by using "Advanced Style Settings" (16/05/2018 - I guess it is not needed anymore after last changes)*/
-/*[[uninvertgoogle]]*/
-/*.gb_1a,
-.gb_Ec {
-    filter: invert(90%) hue-rotate(180deg)!important;
-}
-*/
 }
