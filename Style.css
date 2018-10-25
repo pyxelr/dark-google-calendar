@@ -1,6 +1,6 @@
 @-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.60.6 (2018-09-22)
+    v2.60.6.1 (2018-10-25)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -155,7 +155,7 @@ html {
 }
 /* Invertion of calendar icon in the top left corner of month view */
 
-.gb_Wa.gb_Ee {
+.gb_Wa.gb_Fe {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
 }
 /* Icons color in the pop up view coming after left clicking the event in the month view */
