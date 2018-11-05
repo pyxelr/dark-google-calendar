@@ -1,6 +1,6 @@
 @-moz-document domain("calendar.google.com") {
 /* Dark Google Calendar (2018) 
-    v2.60.6.1 (2018-10-25)
+    v2.60.6.2 (2018-11-05)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -199,9 +199,9 @@ html {
 .IP9Hyd .O0WRkf:first-child {
     color: #ffffff;
 }
-/* Google Calendar logo in the "Calendar of interest" view */
+/* Google Calendar logo in the month view */
 
-.gb_9b.gb_xe {
+.gb_Wa.gb_He {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
 
