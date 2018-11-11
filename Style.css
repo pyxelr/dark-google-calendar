@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2018) 
-    v2.60.6.3 (2018-11-08)
+    v2.60.6.4 (2018-11-11)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -353,6 +353,11 @@
 /* Invertion of attachment frame */
 .fFW7wc-OEVmcd {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
+}
+
+/* Invertion of attachment icon */
+.ghXZpb {
+    filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
 
 
