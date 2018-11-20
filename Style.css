@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2018) 
-    v2.60.6.4 (2018-11-11)
+    v2.60.6.5 (2018-11-20)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
@@ -149,19 +149,19 @@
   }
 
 /* Invertion of main avatar icon */
-  .gb_9a.gbii
+  .gb_ab.gbii
   {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
   }
 
 /* Invertion of 2nd account avatar in the pop-up menu under the avatar icon*/
-  .gb_Bb.gbip
+  .gb_Cb.gbip
   {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
   }
 
 /* Fix of avatar in the pop-up menu under the avatar icon */
-  .gb_Zb.gb_Ab
+  .gb_0b.gb_Bb
   {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
   }
@@ -244,7 +244,7 @@
   }
 
 /* Google Calendar logo in the month view */
-  .gb_Wa.gb_Ke
+  .gb_Xa.gb_Ne
   {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
   }
