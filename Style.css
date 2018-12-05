@@ -1,11 +1,11 @@
 @-moz-document domain("calendar.google.com")
 {
-/* Dark Google Calendar (2018) 
-    v2.60.6.5 (2018-11-20)
+/* Dark Google Calendar (2018)
+    v2.60.6.6 (2018-12-05)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2018
-    License:    https://creativecommons.org/licenses/by-sa/4.0/ 
+    License:    https://creativecommons.org/licenses/by-sa/4.0/
 */
 
 /* Invert the whole website */
@@ -73,9 +73,9 @@
   }
 
 /* Opacity reduction of the background color while adding an event */
-  .k77Iif-nUpftc-psdQ5e.qs41qe
+  .bJZIjf.qs41qe
   {
-    opacity: 0.2;
+    opacity: 0.3;
   }
 
 /* Fix of the Google menu with apps*/
@@ -149,13 +149,13 @@
   }
 
 /* Invertion of main avatar icon */
-  .gb_ab.gbii
+  .gb_bb.gbii
   {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
   }
 
 /* Invertion of 2nd account avatar in the pop-up menu under the avatar icon*/
-  .gb_Cb.gbip
+  .gb_Eb.gbip
   {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
   }
@@ -167,7 +167,7 @@
   }
 
 /* Invertion of "guests" avatars */
-  .jPtXgd
+  .gb_6b.gb_Db
   {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
   }
@@ -244,7 +244,7 @@
   }
 
 /* Google Calendar logo in the month view */
-  .gb_Xa.gb_Ne
+  .gb_Za.gb_ve
   {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
   }
@@ -445,13 +445,13 @@
 }
 
 /* More readable "More" text */
-.gb_ea.gb_6f {
+.gb_fa.gb_ng {
     font-weight: bolder!important;
 }
 
 
 /* Text in Apps menu */
-.gb_X {
+.gb_Z {
     font-weight: bolder!important;
 }
 }
