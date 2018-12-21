@@ -1,8 +1,8 @@
-# Dark Google Calendar (2018)
+# Dark Google Calendar (2019)
 
 Dark theme for Google Calendar that works with the new design. Hit me up with any hints if something could be improved.
 
-This style is available to use [from Userstyles](https://userstyles.org/styles/143026/dark-google-calendar-2018) webpage.
+This style is available to use [from Userstyles](https://userstyles.org/styles/143026/dark-google-calendar-2019) webpage.
 
 ## Preview
 ![](./images/main_view.png)
@@ -14,4 +14,4 @@ This style is available to use [from Userstyles](https://userstyles.org/styles/1
 * If you're using a browser extension:
   * Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/). <br>
   * Then install this style using:
-    * [userstyles.org](https://userstyles.org/styles/143026/dark-google-calendar-2018) (with customization options)
+    * [userstyles.org](https://userstyles.org/styles/143026/dark-google-calendar-2019) (with customization options)
