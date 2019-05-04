@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2019)
-    v2.60.6.8 (2019-01-12)
+    v2.60.6.9 (2019-04-05)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2019
@@ -287,11 +287,15 @@
     filter: invert(100%) hue-rotate(180deg) saturate(140%) contrast(50%) brightness(140%) opacity(90%)!important;
   }
 
-/* Invertion of event colors in the pop up view coming after right clicking the event in the month view */
-  .a63c9c.ztKZ3d
-  {
+/* Past events in the week view (reapplication of oppacity) */
+.NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd.UflSff {
+    filter: opacity(80%)!important;
+}
+
+/* Events in the week view */
+.NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd{
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
-  }
+}
 
 /* Invertion of event colors in the main event view */
   .a63c9c
