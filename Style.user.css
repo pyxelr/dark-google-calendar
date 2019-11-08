@@ -1,14 +1,14 @@
-@-moz-document domain("calendar.google.com")
-{
-/* Dark Google Calendar (2019)
-    v2.60.7 (2019-11-08)
-    Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
-    Repository: https://github.com/pyxelr/Dark_Google_Calendar
-    Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2019
-    UserCSS: https://github.com/pyxelr/Dark_Google_Calendar/blob/master/Style.user.css
-    License: MIT
-*/
+/* ==UserStyle==
+@name           Dark Google Calendar
+@namespace      pyxelr
+@version        2.60.7
+@homepageURL https://github.com/pyxelr/Dark_Google_Calendar
+@updateURL   https://github.com/pyxelr/Dark_Google_Calendar/blob/master/Style.user.css
+@license     MIT
+@author         pyxelr
+==/UserStyle== */
 
+@-moz-document domain("calendar.google.com") {
 /* Invert the whole website */
   html
   {
@@ -298,6 +298,12 @@
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
 
+/* Invertion of event colors in the pop up view coming after right clicking the event in the month view */
+  .a63c9c.ztKZ3d
+  {
+    filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
+  }
+
 /* Invertion of event colors in the main event view */
   .a63c9c
   {
@@ -367,26 +373,26 @@
 /* Font weight increase of the event titles (month view) */
 .g3dbUc {
     font-weight: 900!important;
-    color: /*[[color1]]*/
+    color: #000000
     !important;
 }
 
 /* Change of the font color of the past events (month view) */
 .g3dbUc.UflSff {
-    color: /*[[color2]]*/
+    color: #404040
     !important;
 }
 
 /* Change of the font color for some kind of events (month view) */
 .g3dbUc.smECzc {
-    color: /*[[color3]]*/
+    color: #666666
     !important;
 }
 
 /* Font color of past events (week view) */
 .FAxxKc {
     font-weight: 600!important;
-    color: /*[[color4]]*/
+    color: #000000
     !important;
 }
 
@@ -396,7 +402,7 @@
 .Jmftzc.gVNoLb.EiZ8Dd,
 .Jmftzc.K9QN7e.EiZ8Dd.UflSff,
 .Jmftzc.K9QN7e.EiZ8Dd {
-    color: /*[[color5]]*/
+    color: #000000
     !important;
 }
 

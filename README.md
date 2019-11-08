@@ -13,5 +13,6 @@ This style is available to use [from Userstyles](https://userstyles.org/styles/1
 
 * If you're using a browser extension:
   * Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/). <br>
-  * Then install this style using:
+  * Then install this style using one of the options:
+    * [UserCSS](https://github.com/pyxelr/Dark_Google_Calendar/blob/master/Style.user.css) (which supports automatic updates and customization)
     * [userstyles.org](https://userstyles.org/styles/143026/dark-google-calendar-2019) (with customization options)
