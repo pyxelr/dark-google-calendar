@@ -161,11 +161,6 @@
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
   }
 
-/* Background color of day selection from the pop-up panel (the white frame is cause by *:before,img,svg)*/
-  .HkPXyb{
-    background-color: #f9f9f9;
-  }
-
 /* Menu uninvertion of uploading attachment from Google Drive (the id's are not static and this function doesn't always work) */
   #vqd3vxfo4jpl,
 #pnsketfj08m
