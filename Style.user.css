@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name           Dark Google Calendar
-@namespace      pyxelr
-@version        2.60.8
+@name        Dark Google Calendar
+@namespace   pyxelr
+@version     2.60.9
 @homepageURL https://github.com/pyxelr/Dark_Google_Calendar
 @updateURL   https://github.com/pyxelr/Dark_Google_Calendar/blob/master/Style.user.css
 @license     MIT
-@author         pyxelr
+@author      pyxelr
 ==/UserStyle== */
 
 @-moz-document domain("calendar.google.com") {
@@ -16,12 +16,6 @@
     filter: invert(90%) hue-rotate(180deg)!important;
     background: rgb(25, 25, 25)!important;
   }
-
-/* BELOW ARE THE MODIFICATIONS OF UPDATED GOOGLE CALENDAR [AFTER DECEMBER 2017]*/
-
-
-
-
 
 /* ==== GENERAL ==== */
 
