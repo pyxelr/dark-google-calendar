@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.2
+@version     2.7.0
 @homepageURL https://github.com/pyxelr/Dark_Google_Calendar
 @supportURL  https://github.com/pyxelr/Dark_Google_Calendar/issues
-@updateURL   https://raw.githubusercontent.com/pyxelr/Dark_Google_Calendar/master/DarkTest.user.css
+@updateURL   https://raw.githubusercontent.com/pyxelr/Dark_Google_Calendar/master/Google-DarkCalendar.user.css
 @license     MIT
 @author      pyxelr
 ==/UserStyle== */
@@ -22,6 +22,11 @@
     
     
     
+    /* "+ button" in the month view */
+      .XHsn7e
+      {
+        filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
+      }
     
     /* Invertion of task panel on the right hand side */
       .YqtBEc,
