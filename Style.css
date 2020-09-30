@@ -335,6 +335,27 @@
         color: #666666 !important;
     }
 
+    /* Darkify some of the help/support sections of the site */
+  .ghp-dialog,
+  .ghp-header,
+  .ng-scope,
+  .article-container,
+  .article-content-container
+  {
+      background: rgb(25, 25, 25);
+  }
+
+  .ghp-iconTextComponent-label
+  {
+        color: white;
+  }
+
+  ghp-iconTextComponent:hover,
+  .ghp-iconTextComponent:focus
+  {
+        background: #000;
+  }
+    
     /* Font color of past events (week view) */
     .FAxxKc {
         font-weight: 600!important;
