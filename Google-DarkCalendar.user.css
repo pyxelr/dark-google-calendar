@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.2
+@version     2.7.3
 @homepageURL https://github.com/pyxelr/Dark_Google_Calendar
 @supportURL  https://github.com/pyxelr/Dark_Google_Calendar/issues
 @updateURL   https://raw.githubusercontent.com/pyxelr/Dark_Google_Calendar/master/Google-DarkCalendar.user.css
@@ -335,6 +335,27 @@
         color: #666666 !important;
     }
 
+    /* Darkify some of the help/support sections of the site */
+    .ghp-dialog,
+    .ghp-header,
+    .ng-scope,
+    .article-container,
+    .article-content-container
+    {
+      background: rgb(25, 25, 25);
+    }
+
+    .ghp-iconTextComponent-label
+    {
+        color: white;
+    }
+
+    ghp-iconTextComponent:hover,
+    .ghp-iconTextComponent:focus
+    {
+        background: #000;
+    }
+
     /* Font color of past events (week view) */
     .FAxxKc {
         font-weight: 600!important;
@@ -389,7 +410,6 @@
     .gb_fa.gb_ng {
         font-weight: bolder!important;
     }
-
 
     /* Text in Apps menu */
     .gb_Z {

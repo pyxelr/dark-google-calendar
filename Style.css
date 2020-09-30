@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2020)
-    v2.7.2 (2020-08-11)
+    v2.7.3 (2020-09-30)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/Dark_Google_Calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2020
@@ -336,26 +336,26 @@
     }
 
     /* Darkify some of the help/support sections of the site */
-  .ghp-dialog,
-  .ghp-header,
-  .ng-scope,
-  .article-container,
-  .article-content-container
-  {
+    .ghp-dialog,
+    .ghp-header,
+    .ng-scope,
+    .article-container,
+    .article-content-container
+    {
       background: rgb(25, 25, 25);
-  }
+    }
 
-  .ghp-iconTextComponent-label
-  {
+    .ghp-iconTextComponent-label
+    {
         color: white;
-  }
+    }
 
-  ghp-iconTextComponent:hover,
-  .ghp-iconTextComponent:focus
-  {
+    ghp-iconTextComponent:hover,
+    .ghp-iconTextComponent:focus
+    {
         background: #000;
-  }
-    
+    }
+
     /* Font color of past events (week view) */
     .FAxxKc {
         font-weight: 600!important;
@@ -410,7 +410,6 @@
     .gb_fa.gb_ng {
         font-weight: bolder!important;
     }
-
 
     /* Text in Apps menu */
     .gb_Z {
