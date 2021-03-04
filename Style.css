@@ -143,7 +143,6 @@
     /* Change of arrow color in the settings menu*/
     .gb_yc svg,
     .gb_kc svg {
-        color: black!important;
         opacity: .54!important;
     }
 
