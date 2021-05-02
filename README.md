@@ -3,6 +3,7 @@
 Dark theme for Google Calendar that works with the new design. Hit me up with any hints if something could be improved.
 
 ## Preview
+
 <br />
 <p align="center">
   <img src="images/main_view.png" alt="Main View">
