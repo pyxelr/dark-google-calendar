@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.6
+@version     2.7.7
 @homepageURL https://github.com/pyxelr/dark-google-calendar
 @supportURL  https://github.com/pyxelr/dark-google-calendar/issues
 @updateURL   https://github.com/pyxelr/dark-google-calendar/raw/master/Google-DarkCalendar.user.css
@@ -60,21 +60,6 @@
     /* Opacity reduction of the background color while adding an event */
     .bJZIjf.qs41qe {
         opacity: 0.3;
-    }
-
-    /* Fix of the Google menu with apps*/
-    #gb a.gb_ja,
-    #gb a.gb_ja:visited,
-    #gb a.gb_ja:active,
-    #gb a.gb_ka,
-    #gb a.gb_ka:visited {
-        color: rgba(255, 255, 255, 0.87)!important;
-        text-decoration: none!important;
-        background-color: black!important;
-    }
-
-    .gb_3 {
-        font-weight: 600!important;
     }
 
     /* Inversion of event action pop up (saved, updated, deleted etc.)*/
@@ -421,5 +406,15 @@
     /* Inversion of the avatar displayed in the frame after hovering over the image in the "Add guests" menu while creating a new event */
     .jgZKbb, .oMU93c {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) !important;
+    }
+
+    /* Fix of the Google menu with apps*/
+    .MrEfLc {
+        filter: invert(100%) hue-rotate(180deg) brightness(1.1) !important;
+    }
+
+    /* Text in Google menu with apps*/
+    .Rq5Gcb {
+        font-weight: 600!important;
     }
 }
