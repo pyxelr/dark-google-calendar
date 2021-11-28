@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.7
+@version     2.7.8
 @homepageURL https://github.com/pyxelr/dark-google-calendar
 @supportURL  https://github.com/pyxelr/dark-google-calendar/issues
 @updateURL   https://github.com/pyxelr/dark-google-calendar/raw/master/Google-DarkCalendar.user.css
@@ -134,12 +134,6 @@
     /* Inversion of calendar icon in the top left corner of month view */
     .gb_Wa.gb_Fe {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
-    }
-
-    /* Icons color in the pop up view coming after left clicking the event in the month view */
-    .Wbs5sd,
-    .rF3YF.wmyjXb {
-        color: #000!important;
     }
 
     /* Border color for events that overlap each other in the week view */
@@ -400,9 +394,8 @@
         font-weight: bolder!important;
     }
 }
-@-moz-document regexp("(?=.*?\\/contacts.google.com)(?=.*?calendar.google.com).*") {
 
-    /* ==== GENERAL ==== */
+@-moz-document regexp("(?=.*?\\/contacts.google.com)(?=.*?calendar.google.com).*") {
     /* Inversion of the avatar displayed in the frame after hovering over the image in the "Add guests" menu while creating a new event */
     .jgZKbb, .oMU93c {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) !important;
@@ -416,5 +409,24 @@
     /* Text in Google menu with apps*/
     .Rq5Gcb {
         font-weight: 600!important;
+    }
+}
+
+@-moz-document domain("ogs.google.com") {
+    /* Icons color in the pop up view coming after left clicking the event in the month view */
+    .MrEfLc {
+        filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
+    }
+}
+
+@-moz-document domain("workspace.google.com") {
+    /* Icons in Google Workspace Marketplace */
+    .OIYSWc {
+        filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
+    }
+    /* Google Workplace Marketplace logo */
+    .yQsxXc {
+        filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
+        font-weight: bold !important;    
     }
 }
