@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2020)
-    v2.7.9 (2023-01-06)
+    v2.7.10 (2023-01-07)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/dark-google-calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2020
@@ -17,6 +17,12 @@
     }
 
     /* ==== GENERAL ==== */
+    /* Inversion of images (avatars) */
+    *:not([data-date]):before,
+    img {
+        filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
+    }
+    
     /* Inversion of task panel on the right hand side */
     .YqtBEc,
     .xuBVOe {
@@ -166,15 +172,6 @@
         color: #ffffff;
     }
 
-    /* "Calendar" text next to the top-left logo */
-    .logo-plus-button-lockup-text {
-        color: white;
-    }
-
-    .gb_je.gb_ee {
-        color: #fff;
-    }
-
     /* "Moon phases" inversion */
     .st-wc {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
@@ -280,16 +277,30 @@
     .DWWcKd-OomVLb-LgbsSe-Bz112c-haAclf {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(120%) contrast(105%)!important;
     }
+
     /* Inversion of the + icon (Get add-ons) in the right hand menu */
     #qJTzr {
+        filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(120%) contrast(105%)!important;
+    }
+    
+    /* Inversion of the event cover image (like a dentist event) */
+    .YrCd2b {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(120%) contrast(105%)!important;
     }
 
 
 
 
+    /* ==== FONT ==== */    
+    /* "Calendar" text next to the top-left logo */
+    .logo-plus-button-lockup-text {
+        color: white;
+    }
 
-    /* ==== FONT ==== */
+    .gb_je.gb_ee {
+        color: #fff;
+    }
+
     /* Weight increase of the font used in top left mini calendar */
     .W0m3G {
         font-weight: 500!important;
@@ -409,10 +420,12 @@
     .MrEfLc {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
     }
+
     /* Text in Google menu with apps*/
     .Rq5Gcb {
         font-weight: 600!important;
     }
+
     /* Inversion of images, svg graphics (avatars, icons) in the avatar menu */
     *:not([data-date]):before,
     img,
