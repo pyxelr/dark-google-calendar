@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2020)
-    v2.7.10 (2023-01-07)
+    v2.7.11 (2023-01-08)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/dark-google-calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2020
@@ -415,7 +415,7 @@
     }
 }
 
-@-moz-document domain("ogs.google.com") {
+@-moz-document regexp("(?=.*?\\/ogs.google.com)(?=.*?calendar.google.com).*") {
     /* Icons color in the pop up view coming after left clicking the event in the month view */
     .MrEfLc {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
@@ -434,7 +434,7 @@
     }
 }
 
-@-moz-document domain("workspace.google.com") {
+@-moz-document regexp("(?=.*?\\/workspace.google.com)(?=.*?calendar.google.com).*") {
     /* Icons in Google Workspace Marketplace */
     .OIYSWc {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
