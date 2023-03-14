@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.11
+@version     2.7.12
 @homepageURL https://github.com/pyxelr/dark-google-calendar
 @supportURL  https://github.com/pyxelr/dark-google-calendar/issues
 @updateURL   https://github.com/pyxelr/dark-google-calendar/raw/master/Google-DarkCalendar.user.css
@@ -63,12 +63,12 @@
         opacity: 0.3;
     }
 
-    /* Inversion of event action pop up (saved, updated, deleted etc.)*/
+    /* Inversion of event action pop-up (saved, updated, deleted etc.)*/
     .Mh0NNb {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
 
-    /* Color of event action pop up (saved, updated, deleted etc.)*/
+    /* Color of event action pop-up (saved, updated, deleted etc.)*/
     .M6tHv {
         background-color: #444444!important;
     }
@@ -120,8 +120,7 @@
     }
 
     /* Menu uninversion of uploading attachment from Google Drive (the id's are not static and this function doesn't always work) */
-    #vqd3vxfo4jpl,
-    #pnsketfj08m {
+    .g3VIld.Wm6zM.Up8vH.Whe8ub.hFEqNb.J9Nfi.iWO5td {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
 
@@ -216,7 +215,7 @@
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
 
-    /* Inversion of event colors in the pop up view coming after right clicking the event in the month view */
+    /* Inversion of event colors in the pop-up view coming after right clicking the event in the month view */
     .a63c9c.ztKZ3d {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
@@ -247,18 +246,18 @@
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
 
-    /* Text and color in the pop up view coming after left clicking the event in the month view */
+    /* Text and color in the pop-up view coming after left clicking the event in the month view */
     .Tnsqdc,
     .kw5sif {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
 
-    /* Pen icon in the pop up view coming after left clicking the event in the month view */
+    /* Pen icon in the pop-up view coming after left clicking the event in the month view */
     .kXIDId {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
 
-    /* Color of calendar in the pop up menu of month view */
+    /* Color of calendar in the pop-up menu of month view */
     .sIyjR {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
@@ -370,7 +369,7 @@
         color: grey!important;
     }
 
-    /* Font color in the pop up view coming after left clicking the event in the month view */
+    /* Font color in the pop-up view coming after left clicking the event in the month view */
     #rAECCd,
     .jPtXgd {
         font-weight: 600!important;
@@ -380,13 +379,25 @@
         color: #c1c1c1!important;
     }
 
-    /* Input text of event creation pop up menu */
+    /* Input text of event creation pop-up menu */
     .whsOnd.zHQkBf {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
 
     /* Text in the pop-up menu of the month view*/
     .UfeRlc {
+        filter: invert(90%) hue-rotate(180deg)!important;
+        color: #c1c1c1!important;
+    }
+    
+    /* Text in the event description pop-up field*/
+    .pdqVLc .toUqff {
+        filter: invert(90%) hue-rotate(180deg)!important;
+        color: #c1c1c1!important;
+    }
+    
+    /* Text in the event description field*/
+    .lR3h6d .KRoqRc {
         filter: invert(90%) hue-rotate(180deg)!important;
         color: #c1c1c1!important;
     }
@@ -416,7 +427,7 @@
 }
 
 @-moz-document regexp("(?=.*?\\/ogs.google.com)(?=.*?calendar.google.com).*") {
-    /* Icons color in the pop up view coming after left clicking the event in the month view */
+    /* Icons color in the pop-up view coming after left clicking the event in the month view */
     .MrEfLc {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
     }
