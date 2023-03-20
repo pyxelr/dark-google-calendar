@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2020)
-    v2.7.12 (2023-03-14)
+    v2.7.13 (2023-03-23)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/dark-google-calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2020
@@ -381,18 +381,6 @@ ghp-iconTextComponent:hover,
 /* Input text of event creation pop-up menu */
 .whsOnd.zHQkBf {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
-}
-
-/* Text in the pop-up menu of the month view*/
-.UfeRlc {
-    filter: invert(90%) hue-rotate(180deg)!important;
-    color: #c1c1c1!important;
-}
-
-/* Text in the event description pop-up field*/
-.pdqVLc .toUqff {
-    filter: invert(90%) hue-rotate(180deg)!important;
-    color: #c1c1c1!important;
 }
 
 /* Text in the event description field*/
