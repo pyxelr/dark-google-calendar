@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2020)
-    v2.7.13 (2023-03-23)
+    v2.7.14 (2023-05-17)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/dark-google-calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2020
@@ -114,7 +114,7 @@ img {
 }
 
 /* Inversion of guest avatars attending the event */
-.jPtXgd {
+.LSJzI.mIiRxe {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
 }
 
@@ -123,7 +123,7 @@ img {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
 
-/* Change of arrow color in the settings menu*/
+/* Arrow color in the settings menu*/
 .gb_yc svg,
 .gb_kc svg {
     opacity: .54!important;
@@ -310,12 +310,12 @@ img {
     color: #000000 !important;
 }
 
-/* Change of the font color of the past events (month view) */
+/* Font color of the past events (month view) */
 .g3dbUc.UflSff {
     color: #404040 !important;
 }
 
-/* Change of the font color for some kind of events (month view) */
+/* Font color for some kind of events (month view) */
 .g3dbUc.smECzc {
     color: #666666 !important;
 }
@@ -358,12 +358,7 @@ ghp-iconTextComponent:hover,
     filter: invert(100%)!important;
 }
 
-/* Change of event text color in the pop-up window */
-.i5a7ie {
-    color: #000!important;
-}
-
-/* Change of text color in the pop-up menu under the avatar icon */
+/* Font color in the pop-up menu under the avatar icon */
 .gb_Eb {
     color: grey!important;
 }
@@ -371,6 +366,8 @@ ghp-iconTextComponent:hover,
 /* Font color in the pop-up view coming after left clicking the event in the month view */
 #rAECCd,
 .jPtXgd {
+    filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
+    color: #b0b3b6;
     font-weight: 600!important;
 }
 .zHQkBf {
