@@ -1,12 +1,14 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.14
+@version     2.7.15
 @homepageURL https://github.com/pyxelr/dark-google-calendar
 @supportURL  https://github.com/pyxelr/dark-google-calendar/issues
 @updateURL   https://github.com/pyxelr/dark-google-calendar/raw/master/Google-DarkCalendar.user.css
 @license     MIT
 @author      pyxelr
+
+@var color   font-color-next-events   "Font color of next events"   #000000
 ==/UserStyle== */
 @-moz-document domain("calendar.google.com") {
     /* Invert the entire website */
@@ -107,10 +109,9 @@
     .gsoi.gsoi_7.asor_v {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
-
-    /* Inversion of images (avatars) */
-    *:not([data-date]):before,
-    img {
+    
+    /* Inversion of avatars in "Day" view */
+    .tRmaLe {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
     }
 
@@ -308,7 +309,7 @@
     /* Font weight increase of the event titles (month view) */
     .g3dbUc {
         font-weight: 900!important;
-        color: #000000 !important;
+        color: var(--font-color-next-events) !important;
     }
 
     /* Font color of the past events (month view) */

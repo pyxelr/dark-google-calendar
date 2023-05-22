@@ -1,7 +1,7 @@
 @-moz-document domain("calendar.google.com")
 {
 /* Dark Google Calendar (2020)
-    v2.7.14 (2023-05-17)
+    v2.7.15 (2023-05-22)
     Author: Pawel Cislo (pyxelr) <pyxelr@gmail.com>
     Repository: https://github.com/pyxelr/dark-google-calendar
     Userstyle: https://userstyles.org/styles/143026/dark-google-calendar-2020
@@ -107,9 +107,8 @@ img {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
 }
 
-/* Inversion of images (avatars) */
-*:not([data-date]):before,
-img {
+/* Inversion of avatars in "Day" view */
+.tRmaLe {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
 }
 
@@ -307,7 +306,7 @@ img {
 /* Font weight increase of the event titles (month view) */
 .g3dbUc {
     font-weight: 900!important;
-    color: #000000 !important;
+    color: var(--font-color-next-events) !important;
 }
 
 /* Font color of the past events (month view) */
