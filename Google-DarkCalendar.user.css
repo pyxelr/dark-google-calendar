@@ -1,14 +1,18 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.15
+@version     2.7.16
 @homepageURL https://github.com/pyxelr/dark-google-calendar
 @supportURL  https://github.com/pyxelr/dark-google-calendar/issues
 @updateURL   https://github.com/pyxelr/dark-google-calendar/raw/master/Google-DarkCalendar.user.css
 @license     MIT
 @author      pyxelr
 
-@var color   font-color-next-events   "Font color of next events"   #000000
+@var color   font-color-next-events                        "Font color of next events"                       #000000
+@var color   font-color-past-events                        "Font color of past events"                       #404040
+@var color   font-color-events-month-view-with-time        "Font color of month view events with time"       #666666
+@var color   font-color-next-events-week-view-with-time    "Font color of next week view events with time"   #000000
+@var color   font-color-past-events-week-view-with-time    "Font color of past week view events with time"   #000000
 ==/UserStyle== */
 @-moz-document domain("calendar.google.com") {
     /* Invert the entire website */
@@ -24,7 +28,7 @@
     img {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
     }
-    
+
     /* Inversion of task panel on the right hand side */
     .YqtBEc,
     .xuBVOe {
@@ -74,7 +78,7 @@
     .M6tHv {
         background-color: #444444!important;
     }
-    
+
     /* Inversion of notification panel */
     #I0_1513527137275 {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
@@ -109,7 +113,7 @@
     .gsoi.gsoi_7.asor_v {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
-    
+
     /* Inversion of avatars in "Day" view */
     .tRmaLe {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
@@ -180,11 +184,6 @@
     /* Time of the events we were invited to (in the week view) */
     .Jmftzc.gVNoLb.LKeQwe {
         color: rgb(0, 0, 0);
-    }
-
-    /* Comma color in the events we were invited to (in the week view) */
-    .Jmftzc.EiZ8Dd {
-        color: #000;
     }
 
     /* Fix of current event colors and text in month view */
@@ -282,7 +281,7 @@
     #qJTzr {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(120%) contrast(105%)!important;
     }
-    
+
     /* Inversion of the event cover image (like a dentist event) */
     .YrCd2b {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(120%) contrast(105%)!important;
@@ -291,7 +290,7 @@
 
 
 
-    /* ==== FONT ==== */    
+    /* ==== FONT ==== */
     /* "Calendar" text next to the top-left logo */
     .logo-plus-button-lockup-text {
         color: white;
@@ -306,20 +305,31 @@
         font-weight: 500!important;
     }
 
-    /* Font weight increase of the event titles (month view) */
+    /* Font of today's and future events */
     .g3dbUc {
         font-weight: 900!important;
         color: var(--font-color-next-events) !important;
     }
 
-    /* Font color of the past events (month view) */
+    /* Font color of past events */
     .g3dbUc.UflSff {
-        color: #404040 !important;
+        color: var(--font-color-past-events) !important;
     }
 
-    /* Font color for some kind of events (month view) */
+    /* Font color for of events (in month view with time) */
     .g3dbUc.smECzc {
-        color: #666666 !important;
+        color: var(--font-color-events-month-view-with-time) !important;
+    }
+
+    /* Font of future events (in week view with time) */
+    .Jmftzc.EiZ8Dd {
+        color: var(--font-color-next-events-week-view-with-time);
+    }
+
+    /* Font of past events (in week view with time) */
+    .Jmftzc.EiZ8Dd.UflSff,
+    .Jmftzc.YkxAAf.UflSff {
+        color: var(--font-color-past-events-week-view-with-time) !important;
     }
 
     /* Darkify some of the help/support sections of the site */
@@ -338,21 +348,6 @@
     ghp-iconTextComponent:hover,
     .ghp-iconTextComponent:focus {
         background: #000;
-    }
-
-    /* Font color of past events (week view) */
-    .FAxxKc {
-        font-weight: 600!important;
-        color: #000000 !important;
-    }
-
-    /* Font color of time and places of events (week view) */
-    .A6wOnd,
-    .VgueE,
-    .Jmftzc.gVNoLb.EiZ8Dd,
-    .Jmftzc.K9QN7e.EiZ8Dd.UflSff,
-    .Jmftzc.K9QN7e.EiZ8Dd {
-        color: #000000 !important;
     }
 
     /* Check mark color in the left side bar */
@@ -381,7 +376,7 @@
     .whsOnd.zHQkBf {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
     }
-    
+
     /* Text in the event description field*/
     .lR3h6d .KRoqRc {
         filter: invert(90%) hue-rotate(180deg)!important;
