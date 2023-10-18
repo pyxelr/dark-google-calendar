@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.16
+@version     2.7.17
 @homepageURL https://github.com/pyxelr/dark-google-calendar
 @supportURL  https://github.com/pyxelr/dark-google-calendar/issues
 @updateURL   https://github.com/pyxelr/dark-google-calendar/raw/master/Google-DarkCalendar.user.css
@@ -391,6 +391,42 @@
     /* Text in Apps menu */
     .gb_Z {
         font-weight: bolder!important;
+    }
+
+
+
+
+    /* ==== FRAME ON GMAIL ==== */
+    /* (Day view) Backround of top frame */
+    .cOoA8d, .a3b8ge {
+        background: #fff;
+        border-bottom: 1px solid #E2DFDB;
+    }
+    
+    /*  (Day view) Border color of top 2nd frame */
+    .cBs4Te {
+        border-bottom: 1px solid #CBC9C6;
+    }
+    
+    /*  (Day view) "Today" button frame */
+    .VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-INsAgc.Rj2Mlf.OLiIxf.PDpWxe.P62QJc.LQeN7.ddoZCd.xYvThe {
+        border: 1px solid #CBC9C6;
+    }
+    
+     /* (Schedule view) Background color */
+    .HrwHxb {
+        filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(120%) contrast(105%)!important;
+        background: #191919 !important;
+    }
+    
+    /* (Schedule view) Background of "Create an event" */
+    .GP8Q7c {
+        background: #efefef
+    }
+    
+    /* (Schedule view) Font color */
+    .PnMPye, .q7uEid.gVNoLb.EiZ8Dd {
+        color: black;
     }
 }
 
