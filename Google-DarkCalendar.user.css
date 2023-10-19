@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.17
+@version     2.7.18
 @homepageURL https://github.com/pyxelr/dark-google-calendar
 @supportURL  https://github.com/pyxelr/dark-google-calendar/issues
 @updateURL   https://github.com/pyxelr/dark-google-calendar/raw/master/Google-DarkCalendar.user.css
@@ -198,6 +198,11 @@
     /* Past events in the month view */
     .g3dbUc.UflSff {
         filter: invert(100%) hue-rotate(180deg) saturate(140%) contrast(105%) opacity(40%)!important;
+    }
+
+    /* Modify position of events going through multiple pages in the month view */
+    .zWcBU {
+        position: static;
     }
 
     /* Past events in the week view */
