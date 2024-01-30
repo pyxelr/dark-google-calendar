@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.19
+@version     2.7.20
 @homepageURL https://github.com/pyxelr/dark-google-calendar
 @supportURL  https://github.com/pyxelr/dark-google-calendar/issues
 @updateURL   https://github.com/pyxelr/dark-google-calendar/raw/master/Google-DarkCalendar.user.css
 @license     MIT
 @author      pyxelr
 
-@var color   font-color-next-events                        "Font color of next events"                       #000000
+@var color   font-color-all-day-events                     "Font color of all day events"                    #000000
 @var color   font-color-past-events                        "Font color of past events"                       #404040
 @var color   font-color-events-month-view-with-time        "Font color of month view events with time"       #666666
 @var color   font-color-next-events-week-view-with-time    "Font color of next week view events with time"   #000000
@@ -310,22 +310,22 @@
         font-weight: 500!important;
     }
 
+    /* Font of past  future events */
+    .KF4T6b.UflSff.jKgTF.QGRmIf {
+        color: var(--font-color-past-events);
+    }
+    
     /* Font of today's and future events */
-    .g3dbUc {
+    .KF4T6b {
         font-weight: 900!important;
         color: var(--font-color-next-events) !important;
     }
-
-    /* Font color of past events */
-    .g3dbUc.UflSff {
-        color: var(--font-color-past-events) !important;
-    }
-
-    /* Font color for of events (in month view with time) */
-    .g3dbUc.smECzc {
+    
+    /* Font color of events (in month view with time) */
+    .KF4T6b.qqMC3e,.KF4T6b.smECzc {
         color: var(--font-color-events-month-view-with-time) !important;
-    }
-
+    } 
+    
     /* Font of future events (in week view with time) */
     .Jmftzc.EiZ8Dd {
         color: var(--font-color-next-events-week-view-with-time);
