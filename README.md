@@ -1,6 +1,6 @@
 # Dark Google Calendar
 
-Dark theme for Google Calendar that works with the new design.
+Dark theme for [Google Calendar](https://calendar.google.com/).
 
 ## Preview
 
