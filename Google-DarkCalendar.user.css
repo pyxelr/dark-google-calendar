@@ -311,7 +311,8 @@
     }
 
     /* Font of past events */
-    .KF4T6b.smECzc.UflSff.jKgTF.QGRmIf {
+    .KF4T6b.smECzc.UflSff.jKgTF.QGRmIf,
+    .KF4T6b.UflSff .nHqeVd {
         color: var(--font-color-past-events-with-time) !important;
     }
     
