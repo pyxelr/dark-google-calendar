@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Dark Google Calendar
 @namespace   pyxelr
-@version     2.7.24
+@version     2.7.25
 @homepageURL https://github.com/pyxelr/dark-google-calendar
 @supportURL  https://github.com/pyxelr/dark-google-calendar/issues
 @updateURL   https://github.com/pyxelr/dark-google-calendar/raw/master/Google-DarkCalendar.user.css
@@ -492,14 +492,13 @@
     }
 }
 
-@-moz-document url-prefix("https://www.google.com/maps/companion?") {
-    /* Inversion of Google Maps iframe in right hand panel */
-    #map.Q6cQSe {
-        filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
-    }
+@-moz-document regexp("https://www.google.com/maps/companion/?\?.*") {
     /* Inversion of Google Maps photos in right hand panel */
-    .jtJMuf,
-    .ahyv7c {
+    img.BUmMSb,                                               /* in "Showing results" list */
+    .dryRY:has(.JXAzz),                                       /* top image carousel */
+    .dryRY:has(.ofKBgf),                                      /* "Photos & videos" carousel */
+    img.Liguzb,                                               /* profile pics in "Review summary" */
+    .dryRY:has(.Ymd7jc) img:not([src*="www.google.com/maps"]) /* "People also search for" carousel */ {
         filter: invert(100%) hue-rotate(180deg) brightness(1.1) contrast(105%)!important;
     }
 }
