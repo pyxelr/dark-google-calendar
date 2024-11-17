@@ -2,6 +2,9 @@
 
 Dark theme for [Google Calendar](https://calendar.google.com/).
 
+> [!IMPORTANT]
+> _This repository is archived, following Google's introduction of an [official dark mode](https://workspaceupdates.googleblog.com/2024/10/new-look-and-feel-and-dark-mode-google-calendar.html) for Google Calendar in October 2024._
+
 ## Preview
 
 <br />
